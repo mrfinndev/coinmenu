@@ -33,36 +33,35 @@ const Home = () => {
 
   return (
     <div className="home">
-      <BackgroundLines className="background-lines">
-        <div className="hero">
-          <h1>
-            World Most <br />
-            Reliable <ColourfulText text={"Crypto Marketplace"} />
-          </h1>
-          <p>
-            Coinmenu is world most reliable open source crypto data, Crypto
-            news,community and more.
-          </p>
-          <form onSubmit={searchHandler}>
-            <input
-              list="coinlist"
-              onChange={inputHandler}
-              value={input}
-              required
-              type="text"
-              placeholder="Search crypto.."
-            />
+      <BackgroundLines className="background-lines"></BackgroundLines>
+      <div className="hero">
+        <h1>
+          World Most <br />
+          Reliable <ColourfulText text={"Crypto Marketplace"} />
+        </h1>
+        <p>
+          Coinmenu is world most reliable open source crypto data, Crypto
+          news,community and more.
+        </p>
+        <form onSubmit={searchHandler}>
+          <input
+            list="coinlist"
+            onChange={inputHandler}
+            value={input}
+            required
+            type="text"
+            placeholder="Search crypto.."
+          />
 
-            <datalist id="coinlist">
-              {allCoin.map((item, index) => (
-                <option key={index} value={item.name} />
-              ))}
-            </datalist>
+          <datalist id="coinlist">
+            {allCoin.map((item, index) => (
+              <option key={index} value={item.name} />
+            ))}
+          </datalist>
 
-            <button type="submit">Search</button>
-          </form>
-        </div>
-      </BackgroundLines>
+          <button type="submit">Search</button>
+        </form>
+      </div>
 
       <div className="crypto-table">
         <div className="table-layout">
