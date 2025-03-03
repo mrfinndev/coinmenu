@@ -85,6 +85,15 @@
   border: none;
 }
 
+.symbol-text {
+  font-weight: bold;
+  text-transform: uppercase; /* Makes the text uppercase */
+}
+
+.symbol-text span {
+  color: rgba(0, 0, 0, 0.5); /* Apply a faded color to the symbol */
+}
+
 .table-layout div {
   display: flex;
   align-items: center;

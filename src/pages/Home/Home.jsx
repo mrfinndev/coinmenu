@@ -77,7 +77,9 @@ const Home = () => {
             <p>{item.market_cap_rank}</p>
             <div>
               <img src={item.image} alt="" />
-              <p>{item.name + " - " + item.symbol}</p>
+              <p>
+                {item.name} <span className="symbol-text">{item.symbol}</span>
+              </p>
             </div>
             <p>
               {currency.symbol} {item.current_price.toLocaleString()}
