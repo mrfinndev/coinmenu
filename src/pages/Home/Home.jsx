@@ -3,6 +3,7 @@ import "./Home.css";
 import { CoinContext } from "../../context/CoinContext";
 import { Link } from "react-router-dom";
 import { BackgroundLines } from "../../components/ui/background-lines";
+import { ColourfulText } from "../../components/ui/colourful-text";
 
 // import { PiStarThin } from "react-icons/pi";
 
@@ -36,7 +37,7 @@ const Home = () => {
         <div className="hero">
           <h1>
             World Most <br />
-            Reliable Crypto Marketplace
+            Reliable <ColourfulText text={"Crypto Marketplace"} />
           </h1>
           <p>
             Coinmenu is world most reliable open source crypto data, Crypto

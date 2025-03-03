@@ -23,13 +23,15 @@
 }
 
 .hero h1 {
-  font-size: max(3vw, 36px);
+  /* font-size: max(3vw, 36px); */
+  font-size: 80px;
 }
 
 .hero p {
   width: 75%;
   color: #e3e3e3;
   line-height: 1.5;
+  font-size: 20px;
 }
 
 .hero form {
