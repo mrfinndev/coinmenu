@@ -88,7 +88,7 @@
 .symbol-text {
   font-weight: bold;
   text-transform: uppercase; /* Makes the text uppercase */
-  color: rgba(112, 100, 100, 0.5); /* Apply a faded color to the symbol */
+  color: rgba(155, 138, 138, 0.5); /* Apply a faded color to the symbol */
 }
 
 .table-layout div {
