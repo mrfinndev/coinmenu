@@ -9,7 +9,7 @@
 }
 @media (max-width: 768px) {
   .background-lines {
-    margin-top: 20px;
+    margin-top: 40px;
     position: relative;
     height: 60vh;
   }
