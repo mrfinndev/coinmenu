@@ -7,6 +7,12 @@
   position: relative;
   height: 100vh;
 }
+@media (max-width: 768px) {
+  .background-lines {
+    position: relative;
+    height: 60vh;
+  }
+}
 
 .hero {
   position: absolute;
