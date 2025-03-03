@@ -26,6 +26,11 @@
   /* font-size: max(3vw, 36px); */
   font-size: 80px;
 }
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 60px;
+  }
+}
 
 .hero p {
   width: 75%;
